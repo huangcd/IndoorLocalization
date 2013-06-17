@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<MapGrinderMashupFile Version="1.7">
+  <RenderOptions>
+    <PublishSourceData Value="True" />
+    <PermitComposition Value="True" />
+    <OutputTileType Type="png" />
+    <RenderToFile Folder="C:\Users\chhuang\Documents\My Web Sites\Indoorlocalization\hcl-microsoftbjw2\12\" />
+  </RenderOptions>
+  <LayerList>
+    <Layer DisplayName="New Layer" Expanded="True" SimulateTransparencyWithVEBackingLayer="" id="0">
+      <SourceMap DisplayName="BEIJING-BJW-2-12" Expanded="False" id="1">
+        <Document>
+          <FileDocument Filename="BEIJING-BJW-2-12.png" PageNumber="0" />
+        </Document>
+        <SourceMapInfo>
+          <MapFileURL url="" />
+          <MapHomePage url="" />
+          <MapDescription />
+        </SourceMapInfo>
+        <SourceMapRenderOptions MinZoom="1" MaxZoom="22" />
+        <TransparencyOptions UseDocumentTransparency="True" Enabled="True" Inverted="False">
+          <FadeOptions DefaultValue="1" />
+        </TransparencyOptions>
+        <SourceMapView locked="True">
+          <ReferenceMapPosition>
+            <MapPosition>
+              <LatLonZoom zoom="20">
+                <LatLon lat="39.979302876743" lon="116.304320544004" />
+              </LatLonZoom>
+            </MapPosition>
+          </ReferenceMapPosition>
+        </SourceMapView>
+        <SnapView Context="Source">
+          <LatLonZoom zoom="1">
+            <LatLon lat="0" lon="0" />
+          </LatLonZoom>
+        </SnapView>
+        <SnapView Context="Reference">
+          <LatLonZoom zoom="1">
+            <LatLon lat="0" lon="0" />
+          </LatLonZoom>
+        </SnapView>
+        <SnapZoom Context="Source" Zoom="1" />
+        <SnapZoom Context="Reference" Zoom="1" />
+        <RegistrationDefinition WarpQuality="Automatic">
+          <PositionAssociation pinId="0" associationName="Pin0">
+            <SourcePosition>
+              <LatLonZoom zoom="5">
+                <LatLon lat="0.552734375" lon="-0.005859375" />
+              </LatLonZoom>
+            </SourcePosition>
+            <GlobalPosition>
+              <LatLonZoom zoom="20">
+                <LatLon lat="39.979681053468" lon="116.303793489933" />
+              </LatLonZoom>
+            </GlobalPosition>
+          </PositionAssociation>
+          <PositionAssociation pinId="1" associationName="Pin1">
+            <SourcePosition>
+              <LatLonZoom zoom="5">
+                <LatLon lat="0" lon="1.001953125" />
+              </LatLonZoom>
+            </SourcePosition>
+            <GlobalPosition>
+              <LatLonZoom zoom="20">
+                <LatLon lat="39.9792915725152" lon="116.304738968611" />
+              </LatLonZoom>
+            </GlobalPosition>
+          </PositionAssociation>
+        </RegistrationDefinition>
+        <RenderRegion>
+          <LatLon lat="0.546707332134247" lon="0" />
+          <LatLon lat="0" lon="0" />
+          <LatLon lat="0" lon="1" />
+          <LatLon lat="0.548660457134247" lon="0.998046875" />
+        </RenderRegion>
+        <LegendList />
+      </SourceMap>
+      <LayerView>
+        <MapPosition>
+          <LatLonZoom zoom="20">
+            <LatLon lat="39.9794724188247" lon="116.304259507458" />
+          </LatLonZoom>
+        </MapPosition>
+      </LayerView>
+      <RenderClip />
+    </Layer>
+  </LayerList>
+  <LastView TargetId="1" />
+</MapGrinderMashupFile>

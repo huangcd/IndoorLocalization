@@ -1,0 +1,376 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<CrunchUp xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://web.resource.org/cc/" Version="1.6" RenderDate="5/28/2013 12:25:25" SourceMashupFilename="SourceData/BEIJING-BJW-2-12.yum.xml">
+  <rdf:RDF>
+    <!--This element indicates that the present XML document is in the
+public domain. This permits others to compose the contents of thisMapCruncherMetadata.xml document with other such documents to produce
+composite map presentations. This element does not address the
+usage of the image tiles referred to by this document.-->
+    <ThisDocument xpath="ancestor::CrunchUp" rdf:about="">
+      <cc:license rdf:resource="http://web.resource.org/cc/PublicDomain" />
+    </ThisDocument>
+    <cc:License rdf:about="http://web.resource.org/cc/PublicDomain">
+      <dc:title>public domain</dc:title>
+      <dc:description>no copyright; everything is permitted without restriction</dc:description>
+    </cc:License>
+  </rdf:RDF>
+  <BoundsList>
+    <Bounds zoom="22" X0="3452189" Y0="1588185" X1="3452201" Y1="1588192" />
+  </BoundsList>
+  <CrunchedFileIdentifier>
+    <SearchFodder>MercatorQuadTree</SearchFodder>
+  </CrunchedFileIdentifier>
+  <MapCruncherAppVersion version="3.2.4">
+    <SearchFodder>MercatorQuadTreeVersionDCE</SearchFodder>
+  </MapCruncherAppVersion>
+  <LayerList>
+    <Layer DisplayName="New Layer" ReferenceName="NewLayer">
+      <TileNamingScheme Type="VE" FilePath="" FilePrefix="Layer_NewLayer" FileSuffix=".png" />
+      <DefaultView lat="39.9794848612165" lon="116.304268076809" zoom="20" />
+      <SourceMapRecordList>
+        <SourceMapRecord DisplayName="BEIJING-BJW-2-12" ReferenceName="BEIJINGBJW212" MaxZoom="22">
+          <SourceMapLegendFrame Filename="SourceMap_NewLayer_BEIJING-BJW-2-12.html" URL="legends/SourceMap_NewLayer_BEIJING-BJW-2-12.html" Width="250" Height="159" />
+          <SourceMapInfo>
+            <MapFileURL url="" />
+            <MapHomePage url="" />
+            <MapDescription />
+          </SourceMapInfo>
+          <MapRectangle>
+            <LatLon lat="39.9792855585107" lon="116.30379900894" />
+            <LatLon lat="39.9796841639224" lon="116.304737144679" />
+          </MapRectangle>
+          <Transform input="SourceSpace" output="Mercator">
+            <Sum Name="x">
+              <Term Coefficient="0.823066120253678" x_power="0" y_power="0" />
+              <Term Coefficient="-2.17584621431399E-08" x_power="0" y_power="1" />
+              <Term Coefficient="2.59403709629291E-06" x_power="1" y_power="0" />
+            </Sum>
+            <Sum Name="y">
+              <Term Coefficient="0.378654259637559" x_power="0" y_power="0" />
+              <Term Coefficient="-2.59403709640393E-06" x_power="0" y_power="1" />
+              <Term Coefficient="-2.17584621708955E-08" x_power="1" y_power="0" />
+            </Sum>
+          </Transform>
+          <Transform input="Mercator" output="SourceSpace">
+            <!--This is the 'canonical' transform MapCruncher uses to warp its images. It numerically inverts this transform to compute its inverse. The SourceSpace->Mercator transform should be considered an approximation to the numerical inversion.-->
+            <Sum Name="x">
+              <Term Coefficient="-316044.953951226" x_power="0" y_power="0" />
+              <Term Coefficient="-3233.29461175515" x_power="0" y_power="1" />
+              <Term Coefficient="385472.378125399" x_power="1" y_power="0" />
+            </Sum>
+            <Sum Name="y">
+              <Term Coefficient="148621.973195131" x_power="0" y_power="0" />
+              <Term Coefficient="-385472.378120836" x_power="0" y_power="1" />
+              <Term Coefficient="-3233.29460607254" x_power="1" y_power="0" />
+            </Sum>
+          </Transform>
+          <Thumbnail URL="thumbnails/NewLayer_BEIJING-BJW-2-12_200.png" Width="200" Height="109" />
+          <Thumbnail URL="thumbnails/NewLayer_BEIJING-BJW-2-12_500.png" Width="500" Height="273" />
+        </SourceMapRecord>
+      </SourceMapRecordList>
+      <RangeDescriptors>
+        <RangeDescriptor TileX="1" TileY="0" Zoom="1" QuadTreeLocation="1">
+          <SearchFodder>MercatorQuadTreeB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3" TileY="1" Zoom="2" QuadTreeLocation="13">
+          <SearchFodder>MercatorQuadTreeBD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="6" TileY="3" Zoom="3" QuadTreeLocation="132">
+          <SearchFodder>MercatorQuadTreeBDC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="13" TileY="6" Zoom="4" QuadTreeLocation="1321">
+          <SearchFodder>MercatorQuadTreeBDCB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="26" TileY="12" Zoom="5" QuadTreeLocation="13210">
+          <SearchFodder>MercatorQuadTreeBDCBA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="52" TileY="24" Zoom="6" QuadTreeLocation="132100">
+          <SearchFodder>MercatorQuadTreeBDCBAA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="105" TileY="48" Zoom="7" QuadTreeLocation="1321001">
+          <SearchFodder>MercatorQuadTreeBDCBAAB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="210" TileY="96" Zoom="8" QuadTreeLocation="13210010">
+          <SearchFodder>MercatorQuadTreeBDCBAABA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="421" TileY="193" Zoom="9" QuadTreeLocation="132100103">
+          <SearchFodder>MercatorQuadTreeBDCBAABAD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="842" TileY="387" Zoom="10" QuadTreeLocation="1321001032">
+          <SearchFodder>MercatorQuadTreeBDCBAABADC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1685" TileY="775" Zoom="11" QuadTreeLocation="13210010323">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3371" TileY="1550" Zoom="12" QuadTreeLocation="132100103231">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="6742" TileY="3101" Zoom="13" QuadTreeLocation="1321001032312">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="13485" TileY="6203" Zoom="14" QuadTreeLocation="13210010323123">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="26970" TileY="12407" Zoom="15" QuadTreeLocation="132100103231232">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="53940" TileY="24815" Zoom="16" QuadTreeLocation="1321001032312322">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="107880" TileY="49630" Zoom="17" QuadTreeLocation="13210010323123220">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="107881" TileY="49630" Zoom="17" QuadTreeLocation="13210010323123221">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="215761" TileY="99261" Zoom="18" QuadTreeLocation="132100103231232203">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCAD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="215762" TileY="99261" Zoom="18" QuadTreeLocation="132100103231232212">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="431523" TileY="198523" Zoom="19" QuadTreeLocation="1321001032312322033">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="431524" TileY="198523" Zoom="19" QuadTreeLocation="1321001032312322122">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="431525" TileY="198523" Zoom="19" QuadTreeLocation="1321001032312322123">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="863047" TileY="397046" Zoom="20" QuadTreeLocation="13210010323123220331">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="863048" TileY="397046" Zoom="20" QuadTreeLocation="13210010323123221220">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="863049" TileY="397046" Zoom="20" QuadTreeLocation="13210010323123221221">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="863050" TileY="397046" Zoom="20" QuadTreeLocation="13210010323123221230">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCDA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="863047" TileY="397047" Zoom="20" QuadTreeLocation="13210010323123220333">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="863048" TileY="397047" Zoom="20" QuadTreeLocation="13210010323123221222">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="863049" TileY="397047" Zoom="20" QuadTreeLocation="13210010323123221223">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="863050" TileY="397047" Zoom="20" QuadTreeLocation="13210010323123221232">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCDC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726094" TileY="794092" Zoom="21" QuadTreeLocation="132100103231232203310">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDBA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726095" TileY="794092" Zoom="21" QuadTreeLocation="132100103231232203311">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDBB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726096" TileY="794092" Zoom="21" QuadTreeLocation="132100103231232212200">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCAA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726097" TileY="794092" Zoom="21" QuadTreeLocation="132100103231232212201">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCAB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726098" TileY="794092" Zoom="21" QuadTreeLocation="132100103231232212210">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726099" TileY="794092" Zoom="21" QuadTreeLocation="132100103231232212211">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726100" TileY="794092" Zoom="21" QuadTreeLocation="132100103231232212300">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCDAA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726094" TileY="794093" Zoom="21" QuadTreeLocation="132100103231232203312">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDBC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726095" TileY="794093" Zoom="21" QuadTreeLocation="132100103231232203313">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDBD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726096" TileY="794093" Zoom="21" QuadTreeLocation="132100103231232212202">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCAC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726097" TileY="794093" Zoom="21" QuadTreeLocation="132100103231232212203">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCAD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726098" TileY="794093" Zoom="21" QuadTreeLocation="132100103231232212212">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726099" TileY="794093" Zoom="21" QuadTreeLocation="132100103231232212213">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726100" TileY="794093" Zoom="21" QuadTreeLocation="132100103231232212302">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCDAC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726094" TileY="794094" Zoom="21" QuadTreeLocation="132100103231232203330">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDDA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726095" TileY="794094" Zoom="21" QuadTreeLocation="132100103231232203331">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDDB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726096" TileY="794094" Zoom="21" QuadTreeLocation="132100103231232212220">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCCA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726097" TileY="794094" Zoom="21" QuadTreeLocation="132100103231232212221">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCCB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726098" TileY="794094" Zoom="21" QuadTreeLocation="132100103231232212230">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCDA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726099" TileY="794094" Zoom="21" QuadTreeLocation="132100103231232212231">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCDB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726100" TileY="794094" Zoom="21" QuadTreeLocation="132100103231232212320">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCDCA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726094" TileY="794095" Zoom="21" QuadTreeLocation="132100103231232203332">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDDC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726095" TileY="794095" Zoom="21" QuadTreeLocation="132100103231232203333">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDDD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726096" TileY="794095" Zoom="21" QuadTreeLocation="132100103231232212222">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCCC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726097" TileY="794095" Zoom="21" QuadTreeLocation="132100103231232212223">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCCD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726098" TileY="794095" Zoom="21" QuadTreeLocation="132100103231232212232">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCDC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726099" TileY="794095" Zoom="21" QuadTreeLocation="132100103231232212233">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCDD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="1726100" TileY="794095" Zoom="21" QuadTreeLocation="132100103231232212322">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCDCC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452189" TileY="1588185" Zoom="22" QuadTreeLocation="1321001032312322033103">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDBAD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452190" TileY="1588185" Zoom="22" QuadTreeLocation="1321001032312322033112">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDBBC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452191" TileY="1588185" Zoom="22" QuadTreeLocation="1321001032312322033113">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDBBD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452192" TileY="1588185" Zoom="22" QuadTreeLocation="1321001032312322122002">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCAAC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452193" TileY="1588185" Zoom="22" QuadTreeLocation="1321001032312322122003">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCAAD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452194" TileY="1588185" Zoom="22" QuadTreeLocation="1321001032312322122012">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCABC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452195" TileY="1588185" Zoom="22" QuadTreeLocation="1321001032312322122013">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCABD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452196" TileY="1588185" Zoom="22" QuadTreeLocation="1321001032312322122102">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBAC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452197" TileY="1588185" Zoom="22" QuadTreeLocation="1321001032312322122103">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBAD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452198" TileY="1588185" Zoom="22" QuadTreeLocation="1321001032312322122112">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBBC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452199" TileY="1588185" Zoom="22" QuadTreeLocation="1321001032312322122113">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBBD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452200" TileY="1588185" Zoom="22" QuadTreeLocation="1321001032312322123002">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCDAAC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452189" TileY="1588186" Zoom="22" QuadTreeLocation="1321001032312322033121">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDBCB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452190" TileY="1588186" Zoom="22" QuadTreeLocation="1321001032312322033130">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDBDA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452191" TileY="1588186" Zoom="22" QuadTreeLocation="1321001032312322033131">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDBDB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452192" TileY="1588186" Zoom="22" QuadTreeLocation="1321001032312322122020">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCACA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452193" TileY="1588186" Zoom="22" QuadTreeLocation="1321001032312322122021">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCACB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452194" TileY="1588186" Zoom="22" QuadTreeLocation="1321001032312322122030">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCADA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452195" TileY="1588186" Zoom="22" QuadTreeLocation="1321001032312322122031">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCADB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452196" TileY="1588186" Zoom="22" QuadTreeLocation="1321001032312322122120">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBCA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452197" TileY="1588186" Zoom="22" QuadTreeLocation="1321001032312322122121">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBCB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452198" TileY="1588186" Zoom="22" QuadTreeLocation="1321001032312322122130">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBDA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452199" TileY="1588186" Zoom="22" QuadTreeLocation="1321001032312322122131">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBDB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452200" TileY="1588186" Zoom="22" QuadTreeLocation="1321001032312322123020">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCDACA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452189" TileY="1588187" Zoom="22" QuadTreeLocation="1321001032312322033123">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDBCD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452190" TileY="1588187" Zoom="22" QuadTreeLocation="1321001032312322033132">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDBDC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452191" TileY="1588187" Zoom="22" QuadTreeLocation="1321001032312322033133">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDBDD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452192" TileY="1588187" Zoom="22" QuadTreeLocation="1321001032312322122022">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCACC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452193" TileY="1588187" Zoom="22" QuadTreeLocation="1321001032312322122023">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCACD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452194" TileY="1588187" Zoom="22" QuadTreeLocation="1321001032312322122032">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCADC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452195" TileY="1588187" Zoom="22" QuadTreeLocation="1321001032312322122033">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCADD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452196" TileY="1588187" Zoom="22" QuadTreeLocation="1321001032312322122122">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBCC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452197" TileY="1588187" Zoom="22" QuadTreeLocation="1321001032312322122123">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBCD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452198" TileY="1588187" Zoom="22" QuadTreeLocation="1321001032312322122132">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBDC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452199" TileY="1588187" Zoom="22" QuadTreeLocation="1321001032312322122133">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCBDD</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452200" TileY="1588187" Zoom="22" QuadTreeLocation="1321001032312322123022">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCDACC</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452189" TileY="1588188" Zoom="22" QuadTreeLocation="1321001032312322033301">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDDAB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452190" TileY="1588188" Zoom="22" QuadTreeLocation="1321001032312322033310">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDDBA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452191" TileY="1588188" Zoom="22" QuadTreeLocation="1321001032312322033311">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCADDDBB</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452192" TileY="1588188" Zoom="22" QuadTreeLocation="1321001032312322122200">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCCAA</SearchFodder>
+        </RangeDescriptor>
+        <RangeDescriptor TileX="3452193" TileY="1588188" Zoom="22" QuadTreeLocation="1321001032312322122201">
+          <SearchFodder>MercatorQuadTreeBDCBAABADCDBCDCCBCCCAB</SearchFodder>
+        </RangeDescriptor>
+      </RangeDescriptors>
+      <Thumbnail URL="thumbnails/NewLayer_200.png" Width="200" Height="109" />
+      <Thumbnail URL="thumbnails/NewLayer_500.png" Width="500" Height="273" />
+    </Layer>
+  </LayerList>
+</CrunchUp>
