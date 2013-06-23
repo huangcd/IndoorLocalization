@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//WEC//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="test/html;charset=utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+
+    <style type="text/css">
+        *{padding:0;margin:0;}
+        html, body{height:100%; font-family:arial; font-size:12px; background-color:#FFFFFF; }
+        .MicrosoftMap{ background-color:#000 !important; }
+        .title{ overflow:hidden; width:170px; }
+    </style>
+</head>
+<body>
+<script type="text/javascript" charset="UTF-8"
+        src="http://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&mkt=en-US"></script>
+<div id="mapDiv" style="position:relative;width:100%;height:100%;"></div>
+
+<script type="text/javascript">
+        function __checkBingMapsLoaded(){
+            if(typeof(window['Microsoft']) != "undefined" && Microsoft != null && Microsoft.Maps.registerModule != null){
+                <!--Microsoft.Maps.registerModule('mapModule', 'file:///android_asset/BingMapsAndroid.js');-->
+                Microsoft.Maps.registerModule('mapModule', 'BingMapsAndroid.js');
+
+                Microsoft.Maps.loadModule('mapModule', { callback: function()
+                    {
+                        BingMapsAndroid.LoadMap('mapDiv');
+						BingMapsAndroid.SetCenterAndZoom(new Microsoft.Maps.Location(39.979257994507798, 116.304071868238), 19);
+						BingMapsAndroid.SetTileSource('https://raw.github.com/huangcd/IndoorLocalization/master/hcl-microsoftbjw2/12/Layer_NewLayer/{quadkey}.png', 1.0);
+                    } });
+            }else{
+                setTimeout(__checkBingMapsLoaded,100);
+            }
+        }
+        
+        (function (){
+            __checkBingMapsLoaded();
+        })();
+</script>
+</body>
+</html>
